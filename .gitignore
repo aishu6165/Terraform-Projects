@@ -1,0 +1,7 @@
+# Terraform files to NEVER push!
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.terraform.tfstate.lock.info
